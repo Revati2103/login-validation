@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+.form {
+  height: auto;
+  width: 200px;
+  border: 1px solid #cccccc56;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px rgba(10, 10, 10, 0.219);
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 5px;
+  width: 100%;
+}
+
+.form-input {
+  padding: 6px;
+  border-radius: 10px;
+  border-color: #ccc;
+}
+button {
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  transition: ease 0.3s;
+}
+button:hover {
+  background-color: gray;
+  color: white;
+  transition-duration: ease 0.3s;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  border-color: red;
+}
